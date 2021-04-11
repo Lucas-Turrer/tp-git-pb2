@@ -22,19 +22,32 @@ public class Calculadora {
 		 
 		 switch(opcion) {
 		 case 1:
-		 	resultado=a*b;
+		 	resultado=multiplicar(a,b);
 		 	break;
 		 case 2:
 		 	resultado=a/b;
 		 	break;
 		 case 3:
-		 	resultado=a+b;
+		 	resultado=sumar(a,b);
 		 	break;
 		 case 4:
 		 	resultado=a-b;
-		 	break;
-		 	
+		 	break;	
 		 }
+		 
+		 
 		 System.out.println("El resultado es " + resultado.toString());
 	}
+	public static int multiplicar(int a, int b) {
+		 int resultados;
+			resultados=a*b;
+			return resultados;
+			}
+
+	public static int sumar(int a, int b) {
+		 int resultados;
+			resultados=a+b;
+			return resultados;
+			}
 }
+
