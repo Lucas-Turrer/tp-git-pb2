@@ -25,19 +25,34 @@ public class Calculadora {
 		 	resultado=multiplicar(a,b);
 		 	break;
 		 case 2:
-		 	resultado=a/b;
+		 	resultado= dividir(a, b);
 		 	break;
 		 case 3:
 		 	resultado=sumar(a,b);
 		 	break;
 		 case 4:
-		 	resultado=a-b;
-		 	break;	
+
+		 	resultado= restar(a, b);
+		 	break;
+	
 		 }
 		 
 		 
 		 System.out.println("El resultado es " + resultado.toString());
 	}
+
+	public static int restar (int a, int b) {
+		int resultados;
+		resultados = a-b;
+		return resultados;
+	}
+	public static int dividir (int a, int b) {
+		int resultados;
+		resultados = a/b;
+		return resultados;
+		
+	}
+
 	public static int multiplicar(int a, int b) {
 		 int resultados;
 			resultados=a*b;
@@ -49,5 +64,6 @@ public class Calculadora {
 			resultados=a+b;
 			return resultados;
 			}
+
 }
 
