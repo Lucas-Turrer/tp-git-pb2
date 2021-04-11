@@ -1,0 +1,23 @@
+5.A-¿Qué sucedió cuando se intento hacer el segundo push?
+
+Al hacer el segundo push nos informo que habia cambios en el git.
+
+5.B-¿Qué acciones hay que tomar antes de realizar el push?
+
+Tenemos que realizar un git pull para actualizar el repositorio local al commit mas nuevo.
+
+5.C-¿Qué estrategia propondrían para evitar esta situación?
+
+Una de las estrategias para tener en cuenta es verificar si en el repositorio remoto hay commit nuevos.
+
+6-¿Qué acción realiza el parámetro -b?
+
+El parametro -b crea un nuevo branch llamado develop.
+
+9.A-¿Qué diferencias notaron en el proceso?
+Al tener diferentes Branch cada desarrollador puedes subir sus modificaciones sin alterar al master.
+Al realizar un merge request en el remoto compara el Branch del desarrollador con el master y te muestra la diferencia
+de archivos.
+
+9.B-¿Qué estrategia utilizarían para evitar conflictos?
+Directamente el git remoto compara los archivos y nos avisa si hay que hacer un pull request o no.
